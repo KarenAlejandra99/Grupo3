@@ -1,0 +1,33 @@
+<app-barrahorizaontalnavbar></app-barrahorizaontalnavbar>
+
+<div class="row">
+
+  <div class="col-3 fila1columna1">
+    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi2ahcH3Z2a9k_FPQWKt9F2y-x1OvaSdZYGevedrqFRcOU5J1AGZQKVgHw2ciVL-xSDajpgt3lZTD1cd3u1czMeKz3CHpprY-jL4JAV95SGMZsK3oUJH97YbOuz_uHu8t7N49oIp0K3aRIM4u3H0V4rUeruWsgcm4bh3TIlELkdxLIubvHc_AVIim0t=s320" alt="Logo">
+    </div>
+  
+  
+  <div class="col-3 fila1columna2">
+    
+    <form action="" action="post" class="register" [formGroup]="datosformulario">
+      <h1 class="titulo">Crear Cuenta</h1>
+  
+      <input type="text" value="" class="register-input" formControlName="nombre" name="nombre" placeholder="Nombre">
+      <div class="mensaje">{{retorno_nombre}}</div>
+      <input type="text" value="" class="register-input" formControlName="apellido" name="apellido" placeholder="Apellido">
+      <input type="email" value="" class="register-input" formControlName="email" name="email" placeholder="Email">
+      <input type="password" value="" class="register-input" formControlName="contrasena" name="contrasena" placeholder="Password">
+      <button (click)="recibir_datos()"  class="register-button" >Registrarse</button>
+
+      <p class="enlace">Si tiene una cuenta inicie sesion  <a href="iniciar_sesion">aqui</a></p>
+  
+  
+  
+  </form>
+  </div>
+
+
+
+
+
+

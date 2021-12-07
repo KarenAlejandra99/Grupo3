@@ -1,0 +1,25 @@
+ul{
+    margin:0;
+    padding: 0;
+    background-color: black;
+    color: aliceblue;
+    list-style-type: none;
+    overflow: hidden;
+}
+li{
+float: left;
+}
+li a{
+color: white;
+text-align: center;
+display: block;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 18px;
+}
+li a:hover:not(.active){
+background-color: green;
+}
+.active{
+    background-color:green;
+}
