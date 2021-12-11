@@ -1,0 +1,38 @@
+
+.container{
+    margin-top: 20px;
+    background-color: lightgray;
+    padding: 15px;
+    width: 35%;
+    height: 100%;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.form-label {
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  
+}
+
+.form-control {
+  width: 75%;
+  margin-left: 25px;
+}
+
+.form-text{
+    margin-left: 25px;
+}
+
+.btn{
+    width: 75%;
+    font-size: 15px;
+    background-color: lightblue;
+    margin-left: 25px;
+    border-radius: 5px;
+    border-color: blueviolet;
+}

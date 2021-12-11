@@ -1,0 +1,28 @@
+<app-barrahorizaontalnavbar></app-barrahorizaontalnavbar>
+<div class="container">
+    <h1>Registro de productos</h1>
+    <form>
+        <div class="mb-3">
+          <label for="Producto" class="form-label">Producto</label>
+          <input type="text" class="form-control" id="producto_in">
+          <div id="prod_help" class="form-text">Ingrese el nombre del producto.</div>
+        </div>
+        <div class="mb-3">
+          <label for="referencia" class="form-label">Referencia</label>
+          <input type="text" class="form-control" id="Ref_in">
+          <div id="ref_help" class="form-text">Ingrese la referenca del producto.</div>
+        </div>
+        <div class="mb-3">
+          <label for="Stock" class="form-label">Stock</label>
+          <input type="number" class="form-control" id="stock_in" min="0">
+          <div id="stockHelp" class="form-text">Cuantos productos ingresan.</div>
+        </div>
+        <div class="mb-3">
+          <label for="precio" class="form-label">Precio</label>
+          <input type="number" class="form-control" id="precio_in" min="0">
+          <div id="precioHelp" class="form-text">Precio por unidad.</div>
+        </div>
+        
+        <button type="submit" class="btn ">Agregar</button>
+      </form>
+</div>
